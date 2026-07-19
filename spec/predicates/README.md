@@ -13,6 +13,8 @@ This directory contains predicate specification types that have gone through
 our [vetting process], and may be of general interest:
 
 -   [CycloneDX]: CycloneDX BOM for software artifacts.
+-   [Eval Result]: Signed, offline-verifiable ML evaluation results
+    (metric-threshold claims with private model/dataset commitments).
 <!-- markdownlint-disable-next-line MD059 -->
 -   [Link]: For migration from [in-toto 0.9].
 -   [Reference]: References documents that are relevant to some resource.
@@ -33,6 +35,7 @@ our [vetting process], and may be of general interest:
     on software artifacts.
 
 [CycloneDX]: https://cyclonedx.org/
+[Eval Result]: eval-result.md
 [Link]: link.md
 [New Predicate Guidelines]: ../../docs/new_predicate_guidelines.md
 [Release]: release.md
